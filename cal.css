@@ -1,0 +1,44 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+.Container{
+    background-color: darkgrey;
+    color: black;
+    height: 520px;
+    width: 340px;
+    margin:auto;
+    border: 5px solid gray;
+    padding:5px 10px 5px 10px;
+  }
+  input{
+    width: 100px;
+    padding: 10px;
+    margin: 5px;
+    font-size:34px;
+    border: 1px solid gray;
+    text-align: center;
+    border-radius: 10px;
+  }
+  .textview{
+    width: 305px;
+    color:#000;
+    margin-left:5px;
+    border: 2px solid rgb(71, 71, 71);
+    border-radius: 2px;
+    text-align: right;
+  }
+
+input:hover{
+    box-shadow: 0 11px 15px 0 rgba(43, 41, 41, 0.24),0 11px 45px 0 rgba(44, 43, 43, 0.24);;
+}
+input:focus{
+     background-color: #729cb4;
+     
+}
+#clear{
+  width:323px;
+  color:orangered;
+  margin-left:9px;
+}
